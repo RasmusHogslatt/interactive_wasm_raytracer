@@ -1,0 +1,9 @@
+[build]
+target = "index.html"
+# Ensure dist folder is used
+dist = "dist"
+
+[serve]
+address = "127.0.0.1"
+port = 8080
+open = false
