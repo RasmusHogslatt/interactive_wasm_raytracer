@@ -227,11 +227,8 @@ if (!('encodeInto' in cachedTextEncoder)) {
 
 let WASM_VECTOR_LEN = 0;
 
-function wasm_bindgen__convert__closures_____invoke__hd259c688d2da1fe8(arg0, arg1) {
-    const ret = wasm.wasm_bindgen__convert__closures_____invoke__hd259c688d2da1fe8(arg0, arg1);
-    if (ret[1]) {
-        throw takeFromExternrefTable0(ret[0]);
-    }
+function wasm_bindgen__convert__closures_____invoke__hbcb77d465330ec13(arg0, arg1, arg2) {
+    wasm.wasm_bindgen__convert__closures_____invoke__hbcb77d465330ec13(arg0, arg1, arg2);
 }
 
 function wasm_bindgen__convert__closures_____invoke__h7ac538d7d4c00720(arg0, arg1, arg2) {
@@ -242,8 +239,11 @@ function wasm_bindgen__convert__closures_____invoke__hf872015e3439882a(arg0, arg
     wasm.wasm_bindgen__convert__closures_____invoke__hf872015e3439882a(arg0, arg1, arg2);
 }
 
-function wasm_bindgen__convert__closures_____invoke__hbcb77d465330ec13(arg0, arg1, arg2) {
-    wasm.wasm_bindgen__convert__closures_____invoke__hbcb77d465330ec13(arg0, arg1, arg2);
+function wasm_bindgen__convert__closures_____invoke__hd259c688d2da1fe8(arg0, arg1) {
+    const ret = wasm.wasm_bindgen__convert__closures_____invoke__hd259c688d2da1fe8(arg0, arg1);
+    if (ret[1]) {
+        throw takeFromExternrefTable0(ret[0]);
+    }
 }
 
 const __wbindgen_enum_GpuCompilationMessageType = ["error", "warning", "info"];
